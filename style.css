@@ -8,7 +8,10 @@ body{
 #topBanner{
     background: linear-gradient(180deg, rgb(0,0,0), rgb(30, 22, 58),rgb(36, 2, 75));
     color:whitesmoke;
-    align-items: right;
+    align-content: center;
+}
+header{
+  align-content: center;
 }
 .navbar{
   display:flex;
@@ -19,18 +22,14 @@ body{
   justify-self: stretch;
   justify-content: right;
   align-items: flex-end;
-  flex: 0 0;
-  flex-basis: 100%;
-  column-gap: 0;
+ margin: 0;
+ padding:0;
+
   
 
 }
 
-.navbar button{
-  transform: scale(0.7);
-  margin: 0;
-  padding: 0;
-}
+
 .navbar ul{
   list-style-type: none;
   align-items: bottom;
@@ -59,10 +58,10 @@ padding: 0;
   --btn-bg-color: rgb(222, 212, 238);
   --radii: 0.5em;
   cursor: pointer;
-  padding: 0em 0em;
-  min-width: 120px;
-  min-height: 40px;
-  font-size: var(--size, 1rem);
+  padding: 0.2em 0.2em;
+  width: 90px;
+  height: 30px;
+  font-size: var(--size, 0.8rem);
   font-weight: 500;
   transition: 0.8s;
   background-size: 280% auto;
